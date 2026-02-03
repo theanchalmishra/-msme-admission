@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MSME-TC Bhiwadi | Training Course Admission Form</title>
+
+<style>
+body{
+  font-family: Arial, sans-serif;
+  background:#f1f3f4;
+}
+.container{
+  width:700px;
+  margin:30px auto;
+  background:#fff;
+  padding:25px;
+  border-radius:8px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.2);
+}
+h2{
+  color:#673ab7;
+  margin-bottom:5px;
+}
+.sub{
+  color:#555;
+  margin-bottom:20px;
+}
+.field{
+  margin-bottom:18px;
+}
+label{
+  font-weight:bold;
+  display:block;
+  margin-bottom:6px;
+}
+input, select, textarea{
+  width:100%;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:4px;
+}
+.radio label{
+  font-weight:normal;
+  margin-right:15px;
+}
+button{
+  background:#673ab7;
+  color:white;
+  padding:12px 30px;
+  border:none;
+  border-radius:4px;
+  font-size:16px;
+  cursor:pointer;
+}
+button:hover{
+  background:#5e35b1;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h2>MSME-TC Bhiwadi</h2>
+<p class="sub">Training Course Admission Form</p>
+
+<form method="POST"
+      action="https://script.google.com/macros/s/AKfycbz41J1Me2XmkYPpQfgN2uVjcY_eu8FP7F9d7lJQP6ineosfD8ETu6AoTePIqgewxkSelA/exec">
+
+<div class="field">
+<label>Student Full Name *</label>
+<input type="text" name="name" required>
+</div>
+
+<div class="field">
+<label>Father / Guardian Name *</label>
+<input type="text" name="father" required>
+</div>
+
+<div class="field">
+<label>Date of Birth *</label>
+<input type="date" name="dob" required>
+</div>
+
+<div class="field">
+<label>Gender *</label>
+<div class="radio">
+<input type="radio" name="gender" value="Male" required> Male
+<input type="radio" name="gender" value="Female"> Female
+<input type="radio" name="gender" value="Other"> Other</label>
+</div>
+</div>
+
+<div class="field">
+<label>Mobile Number *</label>
+<input type="tel" name="mobile" required>
+</div>
+
+<div class="field">
+<label>Email ID</label>
+<input type="email" name="email">
+</div>
+
+<div class="field">
+<label>Complete Address *</label>
+<textarea name="address" rows="3" required></textarea>
+</div>
+
+<div class="field">
+<label>Highest Qualification *</label>
+ <select name="qualification" required>
+  <option value="">Select</option>
+  <option value="10th">10th</option>
+  <option value="12th">12th</option>
+  <option value="ITI">ITI</option>
+  <option value="Diploma">Diploma</option>
+  <option value="Graduate">Graduate</option>
+</select>
+</div>
+
+<div class="field">
+<label>Training Course Applied For *</label>
+ <select name="course" required>
+  <option value="">Select Course</option>
+  <option value="CNC Machining">CNC Machining</option>
+  <option value="PLC & Industrial Automation">PLC & Industrial Automation</option>
+  <option value="CAD / CAM">CAD / CAM</option>
+  <option value="Welding Technology">Welding Technology</option>
+  <option value="Electrical & Maintenance">Electrical & Maintenance</option>
+  <option value="Production & Manufacturing">Production & Manufacturing</option>
+</select>
+</div>
+
+<div class="field">
+<label>Training Duration *</label>
+ <select name="duration" required>
+  <option value="">Select Duration</option>
+  <option value="1 Month">1 Month</option>
+  <option value="3 Months">3 Months</option>
+  <option value="6 Months">6 Months</option>
+</select>
+</div>
+
+<div class="field">
+<label>Preferred Batch *</label>
+ <select name="batch" required>
+  <option value="">Select Batch</option>
+  <option value="Morning">Morning</option>
+  <option value="Afternoon">Afternoon</option>
+  <option value="Evening">Evening</option>
+</select>
+ 
+</div>
+
+<div class="field">
+ <label>Previous Experience (if any)</label>
+<textarea name="experience" rows="2"></textarea>
+
+<label>Remarks</label>
+<textarea name="remarks" rows="2"></textarea>
+</div>
+
+<button type="submit">Submit Admission Form</button>
+
+</form>
+</div>
+
+</body>
+</html>
